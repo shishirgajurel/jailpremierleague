@@ -3,39 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAIL PREMIER LEAGUE | JPL 2026</title>
+    <title>JPL | Jail Premier League 2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-[#F4F7F9]">
 
-    <nav class="bg-[#1F0733] border-b border-white/10 py-4 sticky top-0 z-50">
+    <header class="bg-[#1A202C] text-white py-6 shadow-md">
         <div class="container mx-auto px-6 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <div class="bg-[#00FF85] p-2 rounded text-[#3D195B]"><i data-lucide="trophy"></i></div>
-                <h1 class="text-2xl font-black italic tracking-tighter">JPL <span class="text-[#00FF85]">2026</span></h1>
+            <div>
+                <h1 class="text-2xl font-black tracking-tighter uppercase">JPL <span class="text-red-500">2026</span></h1>
+                <p class="text-xs text-slate-400 font-bold uppercase tracking-widest mt-1">Jail Premier League • Live Updates</p>
             </div>
-            <button id="langToggle" class="team-btn px-4 py-1.5 border border-white/20">
+            <button id="langToggle" class="bg-white/10 hover:bg-white/20 px-4 py-2 rounded text-xs font-bold transition-all">
                 <span id="langLabel">नेपाली</span>
             </button>
         </div>
-    </nav>
+    </header>
 
-    <main class="container mx-auto px-6 py-12">
-        <div class="text-center mb-12">
-            <h2 class="text-5xl font-black italic mb-2 tracking-tighter">THE TRANSFER LIST</h2>
-            <p class="text-purple-300 uppercase tracking-widest text-[10px] font-bold opacity-60">High Profile Political Custody Tracker</p>
+    <section class="bg-white border-b border-slate-200 py-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="stats-card border-l-4 border-red-600">
+                    <p class="label">CPN-UML</p>
+                    <h2 id="umlScore" class="value text-red-600">0</h2>
+                </div>
+                <div class="stats-card border-l-4 border-green-600">
+                    <p class="label">Congress</p>
+                    <h2 id="ncScore" class="value text-green-600">0</h2>
+                </div>
+                <div class="stats-card border-l-4 border-orange-500">
+                    <p class="label">Others</p>
+                    <h2 id="otherScore" class="value text-orange-500">0</h2>
+                </div>
+                <div class="stats-card border-l-4 border-slate-800 bg-slate-50">
+                    <p class="label">Total Detained</p>
+                    <h2 id="totalScore" class="value text-slate-800">0</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mx-auto px-6 py-8">
+        <div class="flex items-center gap-2 overflow-x-auto pb-4">
+            <button onclick="filterTeam('all', this)" class="filter-tab active">All Leaders</button>
+            <button onclick="filterTeam('CPN-UML', this)" class="filter-tab">CPN-UML</button>
+            <button onclick="filterTeam('Nepali Congress', this)" class="filter-tab">Nepali Congress</button>
         </div>
 
-        <div class="flex flex-wrap justify-center gap-3 mb-16">
-            <button onclick="filterTeam('all', this)" class="team-btn active">League (All)</button>
-            <button onclick="filterTeam('CPN-UML', this)" class="team-btn border-red-500/50 hover:bg-red-600">The Reds (UML)</button>
-            <button onclick="filterTeam('Nepali Congress', this)" class="team-btn border-green-500/50 hover:bg-green-600">The Greens (NC)</button>
-        </div>
-
-        <div id="arrestGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
-    </main>
+        <div id="arrestGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            </div>
+    </div>
 
     <div id="google_translate_element"></div>
     <script src="script.js"></script>
