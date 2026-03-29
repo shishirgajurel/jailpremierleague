@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAIL PREMIER LEAGUE | JPL 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="bg-[#1F0733] border-b border-white/10 py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="bg-[#00FF85] p-2 rounded text-[#3D195B]"><i data-lucide="trophy"></i></div>
+                <h1 class="text-2xl font-black italic tracking-tighter">JPL <span class="text-[#00FF85]">2026</span></h1>
+            </div>
+            <button id="langToggle" class="team-btn px-4 py-1.5 border border-white/20">
+                <span id="langLabel">नेपाली</span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-black italic mb-2 tracking-tighter">THE TRANSFER LIST</h2>
+            <p class="text-purple-300 uppercase tracking-widest text-[10px] font-bold opacity-60">High Profile Political Custody Tracker</p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-3 mb-16">
+            <button onclick="filterTeam('all', this)" class="team-btn active">League (All)</button>
+            <button onclick="filterTeam('CPN-UML', this)" class="team-btn border-red-500/50 hover:bg-red-600">The Reds (UML)</button>
+            <button onclick="filterTeam('Nepali Congress', this)" class="team-btn border-green-500/50 hover:bg-green-600">The Greens (NC)</button>
+        </div>
+
+        <div id="arrestGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </main>
+
+    <div id="google_translate_element"></div>
+    <script src="script.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

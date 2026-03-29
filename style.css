@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;700;900&display=swap');
+
+:root {
+    --pl-purple: #3D195B;
+    --pl-neon: #00FF85;
+    --pl-pink: #E90052;
+    --pl-dark: #1F0733;
+}
+
+body {
+    background-color: var(--pl-purple);
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+h1, h2, h3, .pl-font {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+/* Premier League Style Glass Cards */
+.jpl-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 0 20px 0 20px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.jpl-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    border-color: var(--pl-neon);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Custom UML & Congress Badges */
+.badge-uml { background: linear-gradient(45deg, #ef4444, #b91c1c); }
+.badge-congress { background: linear-gradient(45deg, #22c55e, #15803d); }
+
+/* Filter Buttons */
+.team-btn {
+    @apply px-6 py-2 rounded-md font-black text-xs transition-all border-2 border-transparent uppercase;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.team-btn.active {
+    background: var(--pl-neon);
+    color: var(--pl-purple);
+    border-color: white;
+}
+
+/* Google Translate Overrides */
+.goog-te-banner-frame.skiptranslate, #google_translate_element { display: none !important; }
+body { top: 0 !important; }

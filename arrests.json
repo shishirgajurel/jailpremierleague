@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "KP Sharma Oli",
+    "role": "Former PM / CPN-UML Chair",
+    "party": "CPN-UML",
+    "date": "2026-03-29",
+    "status": "5-Day Judicial Remand",
+    "location": "T.U. Teaching Hospital (Medical Custody)",
+    "reason": "Alleged criminal negligence in the Sep 2025 'Gen Z' protest deaths.",
+    "source": "https://kathmandupost.com/politics/2026/03/29/court-remands-oli-lekhak-to-five-days-in-custody"
+  },
+  {
+    "id": 2,
+    "name": "Ramesh Lekhak",
+    "role": "Former Home Minister / Nepali Congress",
+    "party": "Nepali Congress",
+    "date": "2026-03-29",
+    "status": "5-Day Judicial Remand",
+    "location": "Police Battalion No. 2, Maharajgunj",
+    "reason": "Alleged responsibility for police firing during Sep 2025 protests.",
+    "source": "https://english.onlinekhabar.com/former-pm-oli-lekhak-arrested.html"
+  },
+  {
+    "id": 3,
+    "name": "Deepak Khadka",
+    "role": "Former Energy Minister",
+    "party": "Nepali Congress",
+    "date": "2026-03-29",
+    "status": "Under Investigation (Arrested Today)",
+    "location": "Central Investigation Bureau (CIB)",
+    "reason": "Money laundering probe related to cash recovered during the 2025 uprising.",
+    "source": "https://english.onlinekhabar.com/dipak-khadka-arrested.html"
+  },
+  {
+    "id": 4,
+    "name": "Rekha Sharma",
+    "role": "Lumbini Provincial Assembly Member",
+    "party": "CPN-UML",
+    "date": "2026-03-29",
+    "status": "In Police Custody",
+    "location": "Kathmandu Valley Crime Investigation Office",
+    "reason": "Investigation into alleged child labor exploitation and domestic abuse involving a minor.",
+    "source": "https://www.sidhakura.com/detail/22562"
+  }
+]
