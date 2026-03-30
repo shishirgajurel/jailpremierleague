@@ -4,33 +4,33 @@
     "name": "KP Sharma Oli",
     "role": "Former PM / CPN-UML Chair",
     "party": "CPN-UML",
-    "date": "2026-03-29",
-    "status": "5-Day Judicial Remand",
-    "location": "T.U. Teaching Hospital (Medical Custody)",
-    "reason": "Alleged criminal negligence in the Sep 2025 'Gen Z' protest deaths.",
-    "source": "https://kathmandupost.com/politics/2026/03/29/court-remands-oli-lekhak-to-five-days-in-custody"
+    "date": "2026-03-30",
+    "status": "5-Day Judicial Remand (In Hospital)",
+    "location": "T.U. Teaching Hospital (Judicial Custody)",
+    "reason": "Remanded by court for investigation into criminal negligence regarding the 2025 Gen Z protest deaths. Attended hearing virtually due to health.",
+    "source": "https://kathmandupost.com/national/2026/03/30/money-laundering-probe-into-deuba-dahal-oli-intensifies-former-minister-khadka-arrested"
   },
   {
     "id": 2,
     "name": "Ramesh Lekhak",
-    "role": "Former Home Minister / Nepali Congress",
+    "role": "Former Home Minister",
     "party": "Nepali Congress",
-    "date": "2026-03-29",
+    "date": "2026-03-30",
     "status": "5-Day Judicial Remand",
     "location": "Police Battalion No. 2, Maharajgunj",
-    "reason": "Alleged responsibility for police firing during Sep 2025 protests.",
-    "source": "https://english.onlinekhabar.com/former-pm-oli-lekhak-arrested.html"
+    "reason": "Court granted 5 days of custody following recommendations of the Karki Commission for his role in the September 2025 protest crackdown.",
+    "source": "https://english.nepalnews.com/s/main-left/nepal-news-evening-briefing-sunday-march-29-2026"
   },
   {
     "id": 3,
     "name": "Deepak Khadka",
     "role": "Former Energy Minister",
     "party": "Nepali Congress",
-    "date": "2026-03-29",
-    "status": "Under Investigation (Arrested Today)",
+    "date": "2026-03-30",
+    "status": "7-Day Judicial Remand",
     "location": "Central Investigation Bureau (CIB)",
-    "reason": "Money laundering probe related to cash recovered during the 2025 uprising.",
-    "source": "https://english.onlinekhabar.com/dipak-khadka-arrested.html"
+    "reason": "Remanded for 7 days in a money laundering probe linked to burnt banknotes and license irregularities discovered during the 2025 unrest.",
+    "source": "https://kathmandupost.com/national/2026/03/29/court-allows-seven-day-remand-of-ex-minister-khadka-in-money-laundering-probe"
   },
   {
     "id": 4,
@@ -40,7 +40,7 @@
     "date": "2026-03-29",
     "status": "In Police Custody",
     "location": "Kathmandu Valley Crime Investigation Office",
-    "reason": "Investigation into alleged child labor exploitation and domestic abuse involving a minor.",
+    "reason": "Arrested in connection with long-standing child labor exploitation and domestic abuse allegations.",
     "source": "https://www.sidhakura.com/detail/22562"
   }
 ]
