@@ -14,60 +14,36 @@
         <div class="container mx-auto px-6 flex justify-between items-center">
             <div>
                 <h1 class="text-2xl font-black italic tracking-tighter uppercase leading-none">JPL <span class="text-red-500">2026</span></h1>
-                <p class="text-[10px] text-slate-400 font-bold uppercase tracking-[0.3em] mt-1">Jail Premier League • Live</p>
+                <p class="text-[10px] text-slate-400 font-bold uppercase tracking-[0.3em] mt-1">Live Accountability Tracker</p>
             </div>
-            <button id="langToggle" class="bg-white/10 px-4 py-1.5 rounded text-xs font-bold uppercase tracking-widest border border-white/10">
-                नेपाली
+            <button id="langToggle" class="bg-white/10 px-4 py-1.5 rounded text-xs font-bold uppercase border border-white/10 transition-all hover:bg-white/20">
+                <span id="langLabel">नेपाली</span>
             </button>
         </div>
     </nav>
 
     <section class="bg-white border-b border-slate-200 py-10">
         <div class="container mx-auto px-6">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
-                <div class="stats-box border-red-600">
-                    <p class="stats-label">CPN-UML</p>
-                    <p id="umlScore" class="stats-value text-red-600">0</p>
-                </div>
-                <div class="stats-box border-green-600">
-                    <p class="stats-label">Congress</p>
-                    <p id="ncScore" class="stats-value text-green-600">0</p>
-                </div>
-                <div class="stats-box border-slate-800 bg-slate-50">
-                    <p class="stats-label">Total Detained</p>
-                    <p id="totalScore" class="stats-value text-slate-800">0</p>
-                </div>
-                <div class="stats-box border-blue-600">
-                    <p class="stats-label">League Day</p>
-                    <p class="stats-value text-blue-600 italic">03</p>
-                </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-6xl mx-auto">
+                <div class="stats-box border-red-600"><p class="stats-label">UML</p><p id="umlScore" class="stats-value text-red-600">0</p></div>
+                <div class="stats-box border-green-600"><p class="stats-label">Congress</p><p id="ncScore" class="stats-value text-green-600">0</p></div>
+                <div class="stats-box border-orange-500"><p class="stats-label">Maoist</p><p id="maoistScore" class="stats-value text-orange-500">0</p></div>
+                <div class="stats-box border-slate-400"><p class="stats-label">Independent</p><p id="indScore" class="stats-value text-slate-500">0</p></div>
+                <div class="stats-box border-slate-900 bg-slate-900 text-white"><p class="stats-label text-slate-400">Total</p><p id="totalScore" class="stats-value">0</p></div>
             </div>
         </div>
     </section>
 
-<div class="container mx-auto px-6 mt-8">
-    <div class="flex justify-center items-center border-b border-slate-200 gap-x-8 md:gap-x-16">
-        <button onclick="filterTeam('all', this)" class="jpl-tab active">
-            All Players
-        </button>
-        <button onclick="filterTeam('CPN-UML', this)" class="jpl-tab uml-t">
-            UML
-        </button>
-        <button onclick="filterTeam('Nepali Congress', this)" class="jpl-tab nc-t">
-            Congress
-        </button>
+    <div class="container mx-auto px-6 mt-8">
+        <div class="flex justify-center items-center border-b border-slate-200 gap-x-6 md:gap-x-12 overflow-x-auto no-scrollbar">
+            <button onclick="filterTeam('all', this)" class="jpl-tab active">All Players</button>
+            <button onclick="filterTeam('CPN-UML', this)" class="jpl-tab uml-t">UML</button>
+            <button onclick="filterTeam('Nepali Congress', this)" class="jpl-tab nc-t">Congress</button>
+            <button onclick="filterTeam('Independent', this)" class="jpl-tab ind-t">Independent</button>
+        </div>
     </div>
-</div>
 
     <main class="container mx-auto px-6 py-12">
-        <div class="max-w-4xl mx-auto mb-16 bg-white border border-slate-200 rounded-2xl p-8 flex flex-col md:flex-row gap-8 items-center shadow-sm">
-            <div class="bg-blue-50 p-4 rounded-full text-blue-600"><i data-lucide="info"></i></div>
-            <div>
-                <h2 class="text-xl font-bold mb-1">Accountability Drive 2026</h2>
-                <p class="text-sm text-slate-500">Following the victory of the Balen Shah government, leaders are being processed under the Karki Commission recommendations regarding the 2025 protests.</p>
-            </div>
-        </div>
-
         <div id="arrestGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
     </main>
 

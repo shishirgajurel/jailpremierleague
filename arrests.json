@@ -4,43 +4,54 @@
     "name": "KP Sharma Oli",
     "role": "Former PM / CPN-UML Chair",
     "party": "CPN-UML",
-    "date": "2026-03-30",
-    "status": "5-Day Judicial Remand",
+    "date": "2026-03-31",
+    "status": "5-Day Remand (Habeas Denied)",
     "location": "T.U. Teaching Hospital (Medical Custody)",
-    "reason": "Remanded for investigation into 'Criminal Negligence' regarding 2025 Gen Z protest deaths. Attended hearing via video-link.",
-    "source": "https://kathmandupost.com/politics/2026/03/29/court-remands-oli-lekhak-to-five-days-in-custody"
+    "reason": "Investigation into criminal negligence regarding 76 deaths in 2025. Supreme Court refused interim release yesterday.",
+    "source": "https://kathmandupost.com/national/2026/03/31/oli-and-lekhak-to-remain-in-custody"
   },
   {
     "id": 2,
     "name": "Ramesh Lekhak",
     "role": "Former Home Minister / NC Leader",
     "party": "Nepali Congress",
-    "date": "2026-03-30",
-    "status": "5-Day Judicial Remand",
+    "date": "2026-03-31",
+    "status": "5-Day Remand (Habeas Denied)",
     "location": "Police Battalion No. 2, Maharajgunj",
-    "reason": "Granting of 5-day custody for questioning regarding the lethal crackdown on anti-corruption protesters in Sep 2025.",
-    "source": "https://www.newsonair.gov.in/nepals-former-pm-kp-sharma-oli-remanded-in-judicial-custody-for-5-days/"
+    "reason": "Questioning regarding lethal orders during the Sep 2025 Gen Z uprising. SC issued show-cause notice but kept him in custody.",
+    "source": "https://asianews.network/court-remands-nepal-ex-pm-oli-ex-home-minister-lekhak"
   },
   {
     "id": 3,
-    "name": "Deepak Khadka",
-    "role": "Former Energy Minister",
-    "party": "Nepali Congress",
-    "date": "2026-03-30",
-    "status": "7-Day Judicial Remand",
-    "location": "Central Investigation Bureau (CIB)",
-    "reason": "Money laundering investigation involving burnt banknote fragments recovered from his residence during the 2025 uprising.",
-    "source": "https://kathmandupost.com/national/2026/03/29/court-allows-seven-day-remand-of-ex-minister-khadka-in-money-laundering-probe"
+    "name": "Chhabilal (Chhabi) Rijal",
+    "role": "Former CDO of Kathmandu",
+    "party": "Independent",
+    "date": "2026-03-31",
+    "status": "Arrested Today",
+    "location": "Valley Crime Investigation Office",
+    "reason": "Accused of ordering police to open fire on protesters in New Baneshwar (Sep 2025) as recommended by the Karki Commission.",
+    "source": "https://english.nepalnews.com/s/politics/former-kathmandu-cdo-chhabilal-rijal-arrested"
   },
   {
     "id": 4,
+    "name": "Deepak Khadka",
+    "role": "Former Energy Minister",
+    "party": "Nepali Congress",
+    "date": "2026-03-31",
+    "status": "7-Day Judicial Remand",
+    "location": "Central Investigation Bureau (CIB)",
+    "reason": "Money laundering investigation regarding burnt cash and license irregularities found during the 2025 unrest.",
+    "source": "https://kathmandupost.com/national/2026/03/29/court-allows-seven-day-remand"
+  },
+  {
+    "id": 5,
     "name": "Rekha Sharma",
-    "role": "Lumbini Provincial Assembly Member",
+    "role": "Lumbini PA Member",
     "party": "CPN-UML",
     "date": "2026-03-30",
     "status": "In Police Custody",
-    "location": "Kathmandu Valley Crime Investigation Office",
-    "reason": "Arrested from Dhumbarahi regarding long-standing allegations of child labor exploitation and domestic abuse.",
-    "source": "https://kathmandupost.com/national/2026/03/30/lumbini-province-assembly-member-rekha-sharma-arrested-in-kathmandu"
+    "location": "Crime Investigation Office, Dhumbarahi",
+    "reason": "Ongoing investigation into child labor exploitation and domestic abuse allegations.",
+    "source": "https://www.onlinekhabar.com/2026/03/rekha-sharma-arrested"
   }
 ]

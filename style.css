@@ -2,34 +2,32 @@
 
 body { font-family: 'Inter', sans-serif; top: 0 !important; }
 
-/* Scoreboard Stats */
+/* Scoreboard */
 .stats-box { @apply bg-white p-5 rounded-xl border-l-8 shadow-sm flex flex-col items-center justify-center; }
 .stats-label { @apply text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1; }
 .stats-value { @apply text-4xl font-black italic tracking-tighter; }
 
-/* CENTERED TABS STYLING */
+/* Centered Transparent Tabs */
 .jpl-tab {
-    @apply px-8 py-4 text-xs font-black uppercase tracking-widest transition-all relative border-b-4 border-transparent outline-none;
-    color: #475569; /* Default Grey-Blue */
+    @apply py-4 text-xs font-black uppercase tracking-widest transition-all relative border-b-4 border-transparent outline-none;
+    color: #64748b;
 }
 
-/* Active State - Blue Line */
-.jpl-tab.active {
-    color: #1e293b;
-    border-color: #3b82f6;
-}
+.jpl-tab.active { color: #1e293b; border-color: #3b82f6; }
 
-/* UML Tab - Red Text */
+/* Team Specific Tab Colors */
 .uml-t { color: #dc2626 !important; }
 .uml-t.active-team { border-color: #dc2626; }
 
-/* Congress Tab - Green Text */
 .nc-t { color: #16a34a !important; }
 .nc-t.active-team { border-color: #16a34a; }
+
+.ind-t { color: #64748b !important; }
+.ind-t.active-team { border-color: #64748b; }
 
 .jpl-tab:hover { @apply opacity-70; }
 
 /* Cards */
 .ok-card { @apply bg-white border border-slate-200 rounded-[1.5rem] p-8 shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col; }
-
+.no-scrollbar::-webkit-scrollbar { display: none; }
 .goog-te-banner-frame.skiptranslate, #google_translate_element { display: none !important; }
