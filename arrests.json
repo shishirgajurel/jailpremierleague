@@ -5,21 +5,21 @@
     "role": "Former PM / CPN-UML Chair",
     "party": "CPN-UML",
     "date": "2026-03-30",
-    "status": "5-Day Judicial Remand (In Hospital)",
-    "location": "T.U. Teaching Hospital (Judicial Custody)",
-    "reason": "Remanded by court for investigation into criminal negligence regarding the 2025 Gen Z protest deaths. Attended hearing virtually due to health.",
-    "source": "https://kathmandupost.com/national/2026/03/30/money-laundering-probe-into-deuba-dahal-oli-intensifies-former-minister-khadka-arrested"
+    "status": "5-Day Judicial Remand",
+    "location": "T.U. Teaching Hospital (Medical Custody)",
+    "reason": "Remanded for investigation into 'Criminal Negligence' regarding 2025 Gen Z protest deaths. Attended hearing via video-link.",
+    "source": "https://kathmandupost.com/politics/2026/03/29/court-remands-oli-lekhak-to-five-days-in-custody"
   },
   {
     "id": 2,
     "name": "Ramesh Lekhak",
-    "role": "Former Home Minister",
+    "role": "Former Home Minister / NC Leader",
     "party": "Nepali Congress",
     "date": "2026-03-30",
     "status": "5-Day Judicial Remand",
     "location": "Police Battalion No. 2, Maharajgunj",
-    "reason": "Court granted 5 days of custody following recommendations of the Karki Commission for his role in the September 2025 protest crackdown.",
-    "source": "https://english.nepalnews.com/s/main-left/nepal-news-evening-briefing-sunday-march-29-2026"
+    "reason": "Granting of 5-day custody for questioning regarding the lethal crackdown on anti-corruption protesters in Sep 2025.",
+    "source": "https://www.newsonair.gov.in/nepals-former-pm-kp-sharma-oli-remanded-in-judicial-custody-for-5-days/"
   },
   {
     "id": 3,
@@ -29,7 +29,7 @@
     "date": "2026-03-30",
     "status": "7-Day Judicial Remand",
     "location": "Central Investigation Bureau (CIB)",
-    "reason": "Remanded for 7 days in a money laundering probe linked to burnt banknotes and license irregularities discovered during the 2025 unrest.",
+    "reason": "Money laundering investigation involving burnt banknote fragments recovered from his residence during the 2025 uprising.",
     "source": "https://kathmandupost.com/national/2026/03/29/court-allows-seven-day-remand-of-ex-minister-khadka-in-money-laundering-probe"
   },
   {
@@ -37,10 +37,10 @@
     "name": "Rekha Sharma",
     "role": "Lumbini Provincial Assembly Member",
     "party": "CPN-UML",
-    "date": "2026-03-29",
+    "date": "2026-03-30",
     "status": "In Police Custody",
     "location": "Kathmandu Valley Crime Investigation Office",
-    "reason": "Arrested in connection with long-standing child labor exploitation and domestic abuse allegations.",
-    "source": "https://www.sidhakura.com/detail/22562"
+    "reason": "Arrested from Dhumbarahi regarding long-standing allegations of child labor exploitation and domestic abuse.",
+    "source": "https://kathmandupost.com/national/2026/03/30/lumbini-province-assembly-member-rekha-sharma-arrested-in-kathmandu"
   }
 ]
