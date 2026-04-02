@@ -4,54 +4,54 @@
     "name": "KP Sharma Oli",
     "role": "Former PM / CPN-UML Chair",
     "party": "CPN-UML",
-    "date": "2026-03-31",
-    "status": "5-Day Remand (Habeas Denied)",
+    "date": "2026-04-02",
+    "status": "Remand Extended (2 Days)",
     "location": "T.U. Teaching Hospital (Medical Custody)",
-    "reason": "Investigation into criminal negligence regarding 76 deaths in 2025. Supreme Court refused interim release yesterday.",
-    "source": "https://kathmandupost.com/national/2026/03/31/oli-and-lekhak-to-remain-in-custody"
+    "reason": "Court extended detention for 2 more days. Attended hearing virtually from hospital. Investigation continues into 'Criminal Negligence' during the 2025 uprising.",
+    "source": "https://kathmandupost.com/national/2026/04/02/court-allows-two-more-days-remand-of-oli-and-lekhak"
   },
   {
     "id": 2,
     "name": "Ramesh Lekhak",
-    "role": "Former Home Minister / NC Leader",
+    "role": "Former Home Minister",
     "party": "Nepali Congress",
-    "date": "2026-03-31",
-    "status": "5-Day Remand (Habeas Denied)",
+    "date": "2026-04-02",
+    "status": "Remand Extended (2 Days)",
     "location": "Police Battalion No. 2, Maharajgunj",
-    "reason": "Questioning regarding lethal orders during the Sep 2025 Gen Z uprising. SC issued show-cause notice but kept him in custody.",
-    "source": "https://asianews.network/court-remands-nepal-ex-pm-oli-ex-home-minister-lekhak"
+    "reason": "Detention extended by 2 days. Investigators are currently recording detailed statements regarding the September 2025 crackdown orders.",
+    "source": "https://www.indopremier.com/ipotnews/newsDetail.php?jdl=Nepal_court_extends_detention_of_ex_PM_Oli_in_deadly_protest_probe&news_id=1725675"
   },
   {
     "id": 3,
-    "name": "Chhabilal (Chhabi) Rijal",
-    "role": "Former CDO of Kathmandu",
+    "name": "Deepak Bhatta",
+    "role": "Businessman / Chairman, Infinity Holdings",
     "party": "Independent",
-    "date": "2026-03-31",
-    "status": "Arrested Today",
-    "location": "Valley Crime Investigation Office",
-    "reason": "Accused of ordering police to open fire on protesters in New Baneshwar (Sep 2025) as recommended by the Karki Commission.",
-    "source": "https://english.nepalnews.com/s/politics/former-kathmandu-cdo-chhabilal-rijal-arrested"
+    "date": "2026-04-02",
+    "status": "Arrested Today (CIB)",
+    "location": "CIB Headquarters, Kathmandu",
+    "reason": "Detained from Naxal in a major money laundering probe (Rs 450M suspicious transfer). Alleged link between political elite and illicit financial layering.",
+    "source": "https://kathmandupost.com/national/2026/04/02/businessman-deepak-bhatta-arrested-in-money-laundering-probe"
   },
   {
     "id": 4,
     "name": "Deepak Khadka",
     "role": "Former Energy Minister",
     "party": "Nepali Congress",
-    "date": "2026-03-31",
+    "date": "2026-03-30",
     "status": "7-Day Judicial Remand",
     "location": "Central Investigation Bureau (CIB)",
-    "reason": "Money laundering investigation regarding burnt cash and license irregularities found during the 2025 unrest.",
+    "reason": "Ongoing investigation into assets and money laundering after burnt cash was found at his residence.",
     "source": "https://kathmandupost.com/national/2026/03/29/court-allows-seven-day-remand"
   },
   {
     "id": 5,
-    "name": "Rekha Sharma",
-    "role": "Lumbini PA Member",
-    "party": "CPN-UML",
-    "date": "2026-03-30",
+    "name": "Chhabilal (Chhabi) Rijal",
+    "role": "Former CDO of Kathmandu",
+    "party": "Independent",
+    "date": "2026-03-31",
     "status": "In Police Custody",
-    "location": "Crime Investigation Office, Dhumbarahi",
-    "reason": "Ongoing investigation into child labor exploitation and domestic abuse allegations.",
-    "source": "https://www.onlinekhabar.com/2026/03/rekha-sharma-arrested"
+    "location": "Valley Crime Investigation Office",
+    "reason": "Questioned for his executive role in the September 2025 protest crackdown as per Karki Commission findings.",
+    "source": "https://www.onlinekhabar.com/2026/03/cdo-rijal-arrested"
   }
 ]
