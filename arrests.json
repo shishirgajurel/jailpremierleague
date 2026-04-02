@@ -7,51 +7,62 @@
     "date": "2026-04-02",
     "status": "Remand Extended (2 Days)",
     "location": "T.U. Teaching Hospital (Medical Custody)",
-    "reason": "Court extended detention for 2 more days. Attended hearing virtually from hospital. Investigation continues into 'Criminal Negligence' during the 2025 uprising.",
-    "source": "https://kathmandupost.com/national/2026/04/02/court-allows-two-more-days-remand-of-oli-and-lekhak"
+    "reason": "Investigation into criminal negligence regarding 2025 Gen Z uprising. Supreme Court denied interim release on March 30.",
+    "source": "https://kathmandupost.com/national/2026/03/30/supreme-court-refuses-interim-relief-to-oli"
   },
   {
     "id": 2,
     "name": "Ramesh Lekhak",
-    "role": "Former Home Minister",
+    "role": "Former Home Minister / NC Leader",
     "party": "Nepali Congress",
     "date": "2026-04-02",
     "status": "Remand Extended (2 Days)",
     "location": "Police Battalion No. 2, Maharajgunj",
-    "reason": "Detention extended by 2 days. Investigators are currently recording detailed statements regarding the September 2025 crackdown orders.",
-    "source": "https://www.indopremier.com/ipotnews/newsDetail.php?jdl=Nepal_court_extends_detention_of_ex_PM_Oli_in_deadly_protest_probe&news_id=1725675"
+    "reason": "Detention for questioning regarding lethal orders issued during the Sep 2025 crackdown. SC show-cause notice issued.",
+    "source": "https://kathmandupost.com/national/2026/03/31/court-remands-nepal-ex-pm-oli-ex-home-minister-lekhak"
   },
   {
     "id": 3,
-    "name": "Deepak Bhatta",
-    "role": "Businessman / Chairman, Infinity Holdings",
-    "party": "Independent",
-    "date": "2026-04-02",
-    "status": "Arrested Today (CIB)",
-    "location": "CIB Headquarters, Kathmandu",
-    "reason": "Detained from Naxal in a major money laundering probe (Rs 450M suspicious transfer). Alleged link between political elite and illicit financial layering.",
-    "source": "https://kathmandupost.com/national/2026/04/02/businessman-deepak-bhatta-arrested-in-money-laundering-probe"
-  },
-  {
-    "id": 4,
     "name": "Deepak Khadka",
     "role": "Former Energy Minister",
     "party": "Nepali Congress",
     "date": "2026-04-02",
     "status": "7-Day Remand (Hospitalized)",
-    "location": "T.U. Teaching Hospital, Bed 1029",
-    "reason": "Money laundering probe; currently receiving medical treatment for health complications while in custody.",
-    "source": "https://theannapurnaexpress.com/story/63297/"
+    "location": "T.U. Teaching Hospital, Maharajgunj",
+    "reason": "Admitted to hospital on March 30 after developing health complications during money laundering investigation.",
+    "source": "https://en.nepalkhabar.com/news/detail/17774/"
+  },
+  {
+    "id": 4,
+    "name": "Rekha Sharma",
+    "role": "Lumbini Provincial Assembly Member",
+    "party": "CPN-UML",
+    "date": "2026-04-02",
+    "status": "In Police Custody",
+    "location": "Kathmandu Valley Crime Investigation Office",
+    "reason": "Arrested from Dhumbarahi regarding long-standing child labor exploitation and domestic abuse allegations.",
+    "source": "https://kathmandupost.com/national/2026/03/30/lumbini-province-assembly-member-rekha-sharma-arrested-in-kathmandu"
   },
   {
     "id": 5,
-   "name": "Chhabilal Rijal",
+    "name": "Chhabilal (Chhabi) Rijal",
     "role": "Former CDO of Kathmandu",
     "party": "Independent",
     "date": "2026-04-02",
-    "status": "Released on Bond",
-    "location": "Released (Resides in Subidhanagar)",
-    "reason": "Released on Tuesday after recording statements; must appear before authorities when summoned regarding the 2025 crackdown.",
-    "source": "https://myrepublica.nagariknetwork.com/news/former-kathmandu-cdo-chhabi-rijal-released-on-bail-52-10.html"
+    "status": "Released on Bail/Recognizance",
+    "location": "Released (Condition to Appear)",
+    "reason": "Released on March 31 after recording statements regarding the 2025 Gen Z crackdown orders.",
+    "source": "https://english.nepalnews.com/s/politics/former-kathmandu-cdo-chhabi-rijal-released-on-bail/"
+  },
+  {
+    "id": 6,
+    "name": "Deepak Bhatta",
+    "role": "Businessman / Power Broker",
+    "party": "Independent",
+    "date": "2026-04-02",
+    "status": "Arrested Today",
+    "location": "CIB Headquarters, Kathmandu",
+    "reason": "Detained in connection with a major money laundering probe involving Rs 450M suspicious transfers.",
+    "source": "https://kathmandupost.com/national/2026/04/02/businessman-deepak-bhatta-arrested-in-money-laundering-probe"
   }
 ]
